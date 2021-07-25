@@ -5,7 +5,7 @@
       <div class="menu"></div>
     </div>
     <div class="banner">
-      <h1>crystalPlugin-vue3</h1>
+      <h1>crystalplugin-vue3</h1>
       <h2>学习vue3用</h2>
       <p class="actions">
         <a>Github</a>
