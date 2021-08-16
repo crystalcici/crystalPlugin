@@ -24,7 +24,7 @@ export default {
     height: $h;
     width: $h * 2;
     border: none;
-    background: blue;
+    background: #409eff;
     border-radius: $h/2;
     position: relative
   }
@@ -36,5 +36,10 @@ export default {
      width: $h2;
      background: white;
      border-radius: $h2/2;
+  }
+  button:hover {
+    span{
+      left: calc(100% - #{ $h2 } - 2px);
+    }
   }
 </style>
