@@ -1,22 +1,18 @@
 <template>
-  <div class="container">
-    button 组件
+  <div>Button 示例</div>
+  <h1>示例1</h1>
+  <div>
+    <Button>你好</Button>
   </div>
 </template>
 
-<script>
+<script lang="ts">
+import Button from './Button.vue'
+
 export default {
-  data() {
-    return {
-
-    }
-  },
-  components: {
-
-  }
+  components: { Button },
 }
 </script>
 
 <style scoped lang="scss">
-
 </style>

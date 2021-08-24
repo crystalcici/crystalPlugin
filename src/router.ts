@@ -2,7 +2,7 @@ import { createMemoryHistory, createRouter } from 'vue-router'
 import Home from './views/Home.vue'
 import Doc from './views/Doc.vue'
 import switchDemo from './components/switch/SwitchDemo.vue'
-import buttonDemo from './components/button/buttonDemo.vue'
+import buttonDemo from './components/button/ButtonDemo.vue'
 import dialogDemo from './components/dialog/dialogDemo.vue'
 import tabsDemo from './components/tabs/tabsDemo.vue'
 
