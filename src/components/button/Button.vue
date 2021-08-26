@@ -1,5 +1,5 @@
 <template>
-  <button class="crystal-btn" :class="{[`theme-${theme}`]: theme}">
+  <button class="gulu-btn" :class="{[`theme-${theme}`]: theme}">
     <slot />
   </button>
 </template>
@@ -19,7 +19,7 @@ $border-color: #d9d9d9;
 $color: #333;
 $blue: #40a9ff;
 $radius: 4px;
-.crystal-btn {
+.gulu-btn {
   box-sizing: border-box;
   height: $h;
   padding: 0 12px;
